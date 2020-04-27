@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HUb spot Regression Suite]">
+  <test thread-count="5" name="HUb spot Regression Suite Test(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="verifLoggedInUserTest"/>
+          <include name="verifiHomePageHeaderTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="seUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </classes>
+  </test> <!-- HUb spot Regression Suite Test(failed) -->
+</suite> <!-- Failed suite [HUb spot Regression Suite] -->
