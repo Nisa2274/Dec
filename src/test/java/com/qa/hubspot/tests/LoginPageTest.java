@@ -11,10 +11,12 @@ public class LoginPageTest {
 	Properties prop;
 	
 	
-	@BeforeTest 
+	@BeforeTest
+	@Parameters(value={"browser"})
 	public void setUp(){
 		basePage =new BasePage();
 		prop = basePage.inti_properties();
+		
 		
 		
 		

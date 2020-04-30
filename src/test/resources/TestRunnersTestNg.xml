@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="HUb spot Regression Suite">
 <listeners>
-</--listener class -name= "com.qa.hubspot.listeners.ExtentReportlistener"/>
+</--<listener class -name= "com.qa.hubspot.listeners.ExtentReportlistener"/>
 <listener class -name= "com.qa.hubspot.listeners.ITestListener"/>
 </listeners>
   <test thread-count="5" name="HUb spot Regression Suite Test">
