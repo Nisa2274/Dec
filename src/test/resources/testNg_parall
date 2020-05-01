@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HUb spot Regression Suite" thread -count="2" parallel="test">
+
+<listeners>
+<listener class -name= "com.qa.hubspot.listeners.ExtentReportlistener"/>
+<listener class -name= "com.qa.hubspot.listeners.ITestListener"/>
+</listeners>
+
+  <test name="HUb spot Regression Suite Test">
+  
+    <classes>
+      <class name="com.qa.hubspot.tests.LoginPageTest-FF"/>
+      <parameter name ="browser" value="firefox"/>
+      <class name="com.qa.hubspot.tests.HomePageTest"/>
+    </classes>
+  </test>
+  <test name="HUb spot Regression Suite Test">
+    <classes>
+      <class name="com.qa.hubspot.tests.LoginPageTest -chrome"/>
+      <parameter name ="browser" value="chrome"/>
+      <class name="com.qa.hubspot.tests.HomePageTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
